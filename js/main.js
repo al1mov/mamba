@@ -10,7 +10,7 @@ window.addEventListener('scroll',()=>{
 let count = 1
 
 
-setInterval(function(){
+setInterval(() => {
     document.getElementById('r' + count).checked = true
     count ++;
 
